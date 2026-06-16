@@ -46,7 +46,7 @@
         <script>
         var map = L.map('map', {
             zoomControl:false, maxZoom:28, minZoom:1
-        }).fitBounds([[34.55265825105827,135.2108117926413],[36.090274771576254,138.5471495258407]]);
+        }).fitBounds([[34.40665312151352,135.35277078946868],[35.94426964203151,139.43635175642297]]);
         var hash = new L.Hash(map);
         map.attributionControl.setPrefix('<a href="https://github.com/qgis2web/qgis2web" target="_blank">qgis2web</a> &middot; <a href="https://leafletjs.com" title="A JS library for interactive maps">Leaflet</a> &middot; <a href="https://qgis.org">QGIS</a>');
         var autolinker = new Autolinker({truncate: {length: 30, location: 'smart'}});
@@ -224,30 +224,58 @@
                 case '1':
                     return {
                 pane: 'pane_aichi_town_2',
-                opacity: 1,
-                color: 'rgba(224,116,54,0.4)',
-                dashArray: '',
-                lineCap: 'butt',
-                lineJoin: 'miter',
-                weight: 1.0, 
+                stroke: false, 
                 fill: true,
                 fillOpacity: 1,
-                fillColor: 'rgba(255,127,0,0.4)',
+                fillColor: 'rgba(255,127,0,0.5)',
+                interactive: true,
+            }
+                    break;
+                case '2':
+                    return {
+                pane: 'pane_aichi_town_2',
+                stroke: false, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(84,196,255,0.5)',
+                interactive: true,
+            }
+                    break;
+                case '3':
+                    return {
+                pane: 'pane_aichi_town_2',
+                stroke: false, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(122,231,25,0.5)',
+                interactive: true,
+            }
+                    break;
+                case '4':
+                    return {
+                pane: 'pane_aichi_town_2',
+                stroke: false, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(255,103,244,0.5)',
+                interactive: true,
+            }
+                    break;
+                case '5':
+                    return {
+                pane: 'pane_aichi_town_2',
+                stroke: false, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(253,255,0,0.5)',
                 interactive: true,
             }
                     break;
                 default:
                     return {
                 pane: 'pane_aichi_town_2',
-                opacity: 1,
-                color: 'rgba(35,35,35,0.4)',
-                dashArray: '',
-                lineCap: 'butt',
-                lineJoin: 'miter',
-                weight: 1.0, 
-                fill: true,
-                fillOpacity: 1,
-                fillColor: 'rgba(228,108,174,0.4)',
+                stroke: false, 
+                fillOpacity: 0,
                 interactive: true,
             }
                     break;
@@ -361,30 +389,58 @@
                 case '1':
                     return {
                 pane: 'pane_gifu_town_4',
-                opacity: 1,
-                color: 'rgba(224,116,54,0.4)',
-                dashArray: '',
-                lineCap: 'butt',
-                lineJoin: 'miter',
-                weight: 1.0, 
+                stroke: false, 
                 fill: true,
                 fillOpacity: 1,
-                fillColor: 'rgba(255,127,0,0.4)',
+                fillColor: 'rgba(255,127,0,0.5)',
+                interactive: true,
+            }
+                    break;
+                case '2':
+                    return {
+                pane: 'pane_gifu_town_4',
+                stroke: false, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(84,196,255,0.5)',
+                interactive: true,
+            }
+                    break;
+                case '3':
+                    return {
+                pane: 'pane_gifu_town_4',
+                stroke: false, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(122,231,25,0.5)',
+                interactive: true,
+            }
+                    break;
+                case '4':
+                    return {
+                pane: 'pane_gifu_town_4',
+                stroke: false, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(255,103,244,0.5)',
+                interactive: true,
+            }
+                    break;
+                case '5':
+                    return {
+                pane: 'pane_gifu_town_4',
+                stroke: false, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(253,255,0,0.5)',
                 interactive: true,
             }
                     break;
                 default:
                     return {
                 pane: 'pane_gifu_town_4',
-                opacity: 1,
-                color: 'rgba(35,35,35,0.4)',
-                dashArray: '',
-                lineCap: 'butt',
-                lineJoin: 'miter',
-                weight: 1.0, 
-                fill: true,
-                fillOpacity: 1,
-                fillColor: 'rgba(228,108,174,0.4)',
+                stroke: false, 
+                fillOpacity: 0,
                 interactive: true,
             }
                     break;
@@ -498,30 +554,58 @@
                 case '1':
                     return {
                 pane: 'pane_mie_town_6',
-                opacity: 1,
-                color: 'rgba(224,116,54,0.4)',
-                dashArray: '',
-                lineCap: 'butt',
-                lineJoin: 'miter',
-                weight: 1.0, 
+                stroke: false, 
                 fill: true,
                 fillOpacity: 1,
-                fillColor: 'rgba(255,127,0,0.4)',
+                fillColor: 'rgba(255,127,0,0.5)',
+                interactive: true,
+            }
+                    break;
+                case '2':
+                    return {
+                pane: 'pane_mie_town_6',
+                stroke: false, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(84,196,255,0.5)',
+                interactive: true,
+            }
+                    break;
+                case '3':
+                    return {
+                pane: 'pane_mie_town_6',
+                stroke: false, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(122,231,25,0.5)',
+                interactive: true,
+            }
+                    break;
+                case '4':
+                    return {
+                pane: 'pane_mie_town_6',
+                stroke: false, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(255,103,244,0.5)',
+                interactive: true,
+            }
+                    break;
+                case '5':
+                    return {
+                pane: 'pane_mie_town_6',
+                stroke: false, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(253,255,0,0.5)',
                 interactive: true,
             }
                     break;
                 default:
                     return {
                 pane: 'pane_mie_town_6',
-                opacity: 1,
-                color: 'rgba(35,35,35,0.4)',
-                dashArray: '',
-                lineCap: 'butt',
-                lineJoin: 'miter',
-                weight: 1.0, 
-                fill: true,
-                fillOpacity: 1,
-                fillColor: 'rgba(228,108,174,0.4)',
+                stroke: false, 
+                fillOpacity: 0,
                 interactive: true,
             }
                     break;
@@ -635,30 +719,58 @@
                 case '1':
                     return {
                 pane: 'pane_shizuoka_town_8',
-                opacity: 1,
-                color: 'rgba(224,116,54,0.4)',
-                dashArray: '',
-                lineCap: 'butt',
-                lineJoin: 'miter',
-                weight: 1.0, 
+                stroke: false, 
                 fill: true,
                 fillOpacity: 1,
-                fillColor: 'rgba(255,127,0,0.4)',
+                fillColor: 'rgba(255,127,0,0.5)',
+                interactive: true,
+            }
+                    break;
+                case '2':
+                    return {
+                pane: 'pane_shizuoka_town_8',
+                stroke: false, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(84,196,255,0.5)',
+                interactive: true,
+            }
+                    break;
+                case '3':
+                    return {
+                pane: 'pane_shizuoka_town_8',
+                stroke: false, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(122,231,25,0.5)',
+                interactive: true,
+            }
+                    break;
+                case '4':
+                    return {
+                pane: 'pane_shizuoka_town_8',
+                stroke: false, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(255,103,244,0.5)',
+                interactive: true,
+            }
+                    break;
+                case '5':
+                    return {
+                pane: 'pane_shizuoka_town_8',
+                stroke: false, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(253,255,0,0.5)',
                 interactive: true,
             }
                     break;
                 default:
                     return {
                 pane: 'pane_shizuoka_town_8',
-                opacity: 1,
-                color: 'rgba(35,35,35,0.4)',
-                dashArray: '',
-                lineCap: 'butt',
-                lineJoin: 'miter',
-                weight: 1.0, 
-                fill: true,
-                fillOpacity: 1,
-                fillColor: 'rgba(228,108,174,0.4)',
+                stroke: false, 
+                fillOpacity: 0,
                 interactive: true,
             }
                     break;
